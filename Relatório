@@ -1,0 +1,96 @@
+Exercício 1: Relatório de acessibilidade
+
+Usando a ferramenta Lighthouse no Chrome foi observado erros no desempenho, acessibilidade e SEO. Irei deixar o link para melhor visualizar o que foi mostrado. (É preciso instalar a extensão Lighthouse no Web Chrome Store)
+
+https://googlechrome.github.io/lighthouse/viewer/?psiurl=http%3A%2F%2Flojaebac.ebaconline.art.br%2F&strategy=desktop&category=performance&category=accessibility&category=best-practices&category=seo&locale=pt&utm_source=lh-chrome-ext.
+
+    1. Na parte de desempenho é possível observar que em algumas funcionalidades estão demorando mais que o necessário, entre outros. E também tem sugestões de melhoria. (Imagem1)
+
+    2. Na parte de acessibilidade foi encontrado erros na Aria,
+nomes e etiquetas, contraste, tabelas e etiquetas. (Imagem 2)
+Irei deixar exemplos:
+
+Aria:  Elementos com uma [role] ARIA que exigem que os filhos contenham uma [role] específica não têm alguns ou nenhum dos filhos obrigatórios.
+
+Nomes e etiquetas: Os botões não têm um nome acessível
+
+Contraste: As cores de primeiro e segundo plano não têm uma taxa de contraste suficiente.
+  
+Tabelas e etiquetas: Itens de lista (<li>) não estão contidos nos elementos pai <ul>, <ol> ou <menu>.
+
+    3. Os erros que foram listados na parte de SEO (Imagem 3) são:
+
+A página está bloqueada para indexação
+O documento não tem uma meta descrição
+
+
+(Imagem 1)
+
+
+
+(imagem 2)
+
+
+
+
+
+(Imagem 3)
+
+
+
+Relatório de melhorias:
+
+Uma melhoria seria deixar o site totalmente em português, algumas funcionalidades estão em inglês, portanto se alguma pessoa não souber ler em inglês vai desistir da compra.
+Deixar menus na lateral já com as categorias para melhor visualização, deixando visível os menus ao invés de clicar em todas as categorias, eles já estando na lateral do site evita ficar procurando e o cliente vai achar mais rápido o que está procurando.
+
+
+Exercício 2: Alteração do front via DevTools
+
+Exercício 1: Relatório de acessibilidade
+
+Usando a ferramenta Lighthouse no Chrome foi observado erros no desempenho, acessibilidade e SEO. Irei deixar o link para melhor visualizar o que foi mostrado. (É preciso instalar a extensão Lighthouse no Web Chrome Store)
+
+https://googlechrome.github.io/lighthouse/viewer/?psiurl=http%3A%2F%2Flojaebac.ebaconline.art.br%2F&strategy=desktop&category=performance&category=accessibility&category=best-practices&category=seo&locale=pt&utm_source=lh-chrome-ext.
+
+    1. Na parte de desempenho é possível observar que em algumas funcionalidades estão demorando mais que o necessário, entre outros. E também tem sugestões de melhoria. (Imagem1)
+
+    2. Na parte de acessibilidade foi encontrado erros na Aria,
+nomes e etiquetas, contraste, tabelas e etiquetas. (Imagem 2)
+Irei deixar exemplos:
+
+Aria:  Elementos com uma [role] ARIA que exigem que os filhos contenham uma [role] específica não têm alguns ou nenhum dos filhos obrigatórios.
+
+Nomes e etiquetas: Os botões não têm um nome acessível
+
+Contraste: As cores de primeiro e segundo plano não têm uma taxa de contraste suficiente.
+  
+Tabelas e etiquetas: Itens de lista (<li>) não estão contidos nos elementos pai <ul>, <ol> ou <menu>.
+
+    3. Os erros que foram listados na parte de SEO (Imagem 3) são:
+
+A página está bloqueada para indexação
+O documento não tem uma meta descrição
+
+
+(Imagem 1)
+
+
+
+(imagem 2)
+
+
+
+
+
+(Imagem 3)
+
+
+
+Relatório de melhorias:
+
+Uma melhoria seria deixar o site totalmente em português, algumas funcionalidades estão em inglês, portanto se alguma pessoa não souber ler em inglês vai desistir da compra.
+Deixar menus na lateral já com as categorias para melhor visualização, deixando visível os menus ao invés de clicar em todas as categorias, eles já estando na lateral do site evita ficar procurando e o cliente vai achar mais rápido o que está procurando.
+
+
+Exercício 2: Alteração do front via DevTools
+
